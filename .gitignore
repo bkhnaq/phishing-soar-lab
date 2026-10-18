@@ -1,0 +1,22 @@
+# Secrets - KHÔNG BAO GIỜ commit
+.env
+*.key
+*_key.pem
+*.pem
+secrets/
+credentials*
+docs/images/tele_report.png
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Log
+*.log
+events.jsonl
+
+# OS
+.DS_Store
+Thumbs.db

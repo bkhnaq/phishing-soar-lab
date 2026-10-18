@@ -1,0 +1,4 @@
+<localfile>
+  <location>Microsoft-Windows-DNS-Client/Operational</location>
+  <log_format>eventchannel</log_format>
+</localfile>

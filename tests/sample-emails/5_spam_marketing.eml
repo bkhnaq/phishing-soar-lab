@@ -1,0 +1,22 @@
+Return-Path: <deals@shopping-mega-sale.com>
+Received: from bulk.shopping-mega-sale.com (bulk.shopping-mega-sale.com [104.21.55.8])
+	by mx.company-demo.local (Postfix) with ESMTP id 1B2A3C4D5E
+	for <nhanvien@company-demo.local>; Fri, 26 Sep 2026 06:00:00 +0000 (UTC)
+Authentication-Results: mx.company-demo.local;
+	spf=pass smtp.mailfrom=shopping-mega-sale.com;
+	dkim=pass header.d=shopping-mega-sale.com;
+	dmarc=pass
+From: "Mega Sale" <deals@shopping-mega-sale.com>
+To: nhanvien@company-demo.local
+Subject: 70% OFF everything this weekend only!
+Message-ID: <promo20260926@shopping-mega-sale.com>
+Date: Fri, 26 Sep 2026 06:00:00 +0000
+MIME-Version: 1.0
+Content-Type: text/html; charset="UTF-8"
+
+<html><body>
+<h1>Weekend Mega Sale</h1>
+<p>Get up to 70% off on all items. Limited time only!</p>
+<p><a href="https://shopping-mega-sale.com/weekend-deals">Shop now</a></p>
+<p><a href="https://shopping-mega-sale.com/unsubscribe">Unsubscribe</a></p>
+</body></html>

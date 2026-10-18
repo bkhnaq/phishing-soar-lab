@@ -1,0 +1,29 @@
+Return-Path: <ceo.office@gmail.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com [209.85.220.41])
+	by mx.company-demo.local (Postfix) with ESMTPS id 2C3D4E5F6A
+	for <ketoan@company-demo.local>; Fri, 26 Sep 2026 10:15:44 +0000 (UTC)
+Authentication-Results: mx.company-demo.local;
+	spf=pass smtp.mailfrom=gmail.com;
+	dkim=pass header.d=gmail.com;
+	dmarc=pass
+From: "Nguyen Van Giam Doc" <ceo.office@gmail.com>
+Reply-To: ceo.office.finance@gmail.com
+To: ketoan@company-demo.local
+Subject: Urgent wire transfer needed before noon
+Message-ID: <CAF9xurgent2026@mail.gmail.com>
+Date: Fri, 26 Sep 2026 10:15:40 +0000
+MIME-Version: 1.0
+Content-Type: text/plain; charset="UTF-8"
+
+Hi,
+
+I am in a meeting and cannot call. We need to complete a wire transfer to a new
+supplier today before noon. Please transfer 85,000 USD to the account below and
+send me the confirmation. Keep this confidential for now.
+
+Bank: International Trade Bank
+Account name: Global Supply Partners
+Account number: 8842019773
+
+Thanks,
+Giam Doc

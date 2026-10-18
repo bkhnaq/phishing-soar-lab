@@ -1,0 +1,25 @@
+Return-Path: <noreply@github.com>
+Received: from out-25.smtp.github.com (out-25.smtp.github.com [192.30.252.207])
+	by mx.company-demo.local (Postfix) with ESMTPS id 9A8B7C6D5E
+	for <dev@company-demo.local>; Fri, 26 Sep 2026 07:30:12 +0000 (UTC)
+Authentication-Results: mx.company-demo.local;
+	spf=pass smtp.mailfrom=github.com;
+	dkim=pass header.d=github.com;
+	dmarc=pass header.from=github.com
+From: "GitHub" <noreply@github.com>
+To: dev@company-demo.local
+Subject: [GitHub] A third-party OAuth application has been added to your account
+Message-ID: <github-oauth-20260926@github.com>
+Date: Fri, 26 Sep 2026 07:30:08 +0000
+MIME-Version: 1.0
+Content-Type: text/plain; charset="UTF-8"
+
+Hey there,
+
+A third-party OAuth application (CircleCI) with read:org and repo scopes was
+recently authorized to access your account.
+
+Visit https://github.com/settings/connections/applications if this was not you.
+
+Thanks,
+The GitHub Team

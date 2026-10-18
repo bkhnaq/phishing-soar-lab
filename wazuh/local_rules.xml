@@ -1,0 +1,47 @@
+<group name="phishing_bot,">
+
+  <rule id="100510" level="5">
+    <if_sid>86600</if_sid>
+    <field name="integration">^phishing_bot$</field>
+    <description>Phishing Bot event received</description>
+  </rule>
+
+  <rule id="100511" level="12">
+    <if_sid>100510</if_sid>
+    <field name="risk.initial_verdict">^PHISHING$</field>
+    <description>Phishing Bot: email phishing - $(email.subject)</description>
+    <mitre>
+      <id>T1566</id>
+    </mitre>
+  </rule>
+
+  <rule id="100512" level="10">
+    <if_sid>100510</if_sid>
+    <field name="risk.initial_verdict">^SUSPICIOUS$</field>
+    <description>Phishing Bot: email nghi ngờ - $(email.subject)</description>
+    <mitre>
+      <id>T1566</id>
+    </mitre>
+  </rule>
+
+</group>
+
+<group name="windows,dns,windows_dns,">
+
+  <rule id="100600" level="3">
+    <if_sid>60009</if_sid>
+
+    <field name="win.system.providerName" type="pcre2">^Microsoft-Windows-DNS-Client$</field>
+
+    <field name="win.system.channel" type="pcre2">^Microsoft-Windows-DNS-Client/Operational$</field>
+
+    <field name="win.system.eventID" type="pcre2">^3008$</field>
+
+    <field name="win.eventdata.queryName" type="pcre2">.+</field>
+
+    <description>Windows DNS query: $(win.eventdata.queryName)</description>
+
+    <options>no_full_log</options>
+  </rule>
+
+</group>

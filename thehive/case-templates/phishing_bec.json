@@ -1,0 +1,51 @@
+{
+  "name": "Phishing - BEC",
+  "displayName": "Phishing - BEC",
+  "titlePrefix": "",
+  "description": "Lừa đảo tài chính / giả mạo người quen (Business Email Compromise).",
+  "severity": 3,
+  "tlp": 2,
+  "pap": 2,
+  "tags": [
+    "phishing"
+  ],
+  "tasks": [
+    {
+      "order": 0,
+      "title": "Xác minh với người gửi thật qua kênh khác",
+      "group": "1. Triage",
+      "description": "Gọi điện hoặc dùng kênh liên lạc chính thức, không trả lời email."
+    },
+    {
+      "order": 1,
+      "title": "Kiểm tra đã có giao dịch hoặc thông tin bị gửi đi chưa",
+      "group": "2. Scoping",
+      "description": ""
+    },
+    {
+      "order": 2,
+      "title": "Kiểm tra hộp thư có bị chiếm quyền",
+      "group": "2. Scoping",
+      "description": "Rule chuyển tiếp lạ, đăng nhập lạ, thay đổi cấu hình hộp thư."
+    },
+    {
+      "order": 3,
+      "title": "Báo tài chính và ngân hàng nếu đã chuyển tiền",
+      "group": "3. Containment",
+      "description": ""
+    },
+    {
+      "order": 4,
+      "title": "Chặn người gửi và domain giả mạo",
+      "group": "3. Containment",
+      "description": ""
+    },
+    {
+      "order": 5,
+      "title": "Ghi bài học, nhắc nhở người dùng và đóng case",
+      "group": "5. Closure",
+      "description": ""
+    }
+  ],
+  "customFields": []
+}
