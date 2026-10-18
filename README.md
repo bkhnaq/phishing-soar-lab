@@ -94,7 +94,7 @@ Yêu cầu: Wazuh, một Shuffle (cloud hoặc self-host), TheHive 5 + Cortex đ
 
 Ảnh hiện có trong `docs/images/`:
 - `01_shuffle_workflow.png`
-- `tele_report_public.png` — ảnh Telegram đã cắt bỏ sidebar chứa thông báo nhạy cảm
+- `tele_report.png`
 - `theHive.png`
 - `theHive_alert.png`
 - `theHive_case_detail.png`
